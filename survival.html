@@ -3,6 +3,29 @@
   <head>
     <title>Survival Mode</title>
     <style>
+      #title-heading {
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+        font-weight: 0.1;
+        font-size: 120px;
+        color: rgb(255,255,255);
+        animation-name: title-animation;
+        animation-duration: 0.75s;
+      }
+      @keyframes title-animation {
+          from {
+            font-size: 0px;
+          }
+          to {
+            font-size: 120px;
+          }
+      }  
+      #title-heading-background {
+        border: 10px dashed rgb(50,50,50);
+        padding-right: 50px;
+        padding-left: 50px;
+        background-color: rgb(0,100,0);
+      }
     </style>
   </head>
   <body>
